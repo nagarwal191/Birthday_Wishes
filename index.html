@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday! 💖</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Inter:wght@400;500;600&display=swap"
+        rel="stylesheet">
+
+    <!-- Confetti Library -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="main-container" class="container">
+
+        <header class="hero">
+            <h1>Happy Birthday, Vanshu! 🎂</h1>
+            <p class="subtitle">Here are 25 reasons, on your 25th Birthday to tell you, why I love you so much...</p>
+            <div class="scroll-indicator">
+                <p>Scroll down</p>
+                <div class="arrow">↓</div>
+            </div>
+        </header>
+
+        <section class="reasons-section">
+            <div id="reasons-grid" class="reasons-grid">
+                <!-- Reasons will be injected here via JS -->
+            </div>
+        </section>
+
+        <section class="question-section" id="question-section">
+            <div class="glass-card question-card">
+                <h2>Now that you know how much I love you...</h2>
+                <h1 class="big-question">Will you be my forever? 💍</h1>
+
+                <div class="buttons-container">
+                    <button id="yes-btn" class="btn yes-btn">Yes! 💖</button>
+                    <button id="no-btn" class="btn no-btn">No</button>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- Celebration Screen (Hidden by default) -->
+    <div id="celebration-container" class="celebration-container hidden">
+        <div class="glass-card celebration-card">
+            <h1>I Love You So Much! ❤️</h1>
+            <p>You've made me the happiest person in the world.</p>
+            <div class="heart-animation">💖</div>
+            <p class="celebration-footer">Happy Birthday! 🎉</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
