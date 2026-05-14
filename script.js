@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
         "I love how supportive you are of my goals and dreams. More than me, you want me successfull.",
         "I love how genuine and real you are.",
         "I love the way you make ordinary moments feel special, with your presence.",
-        "I love your voice — especially when you say my name or moan my name 🫣",
+        "I love your voice — especially when you say my name iykyk",
         "I love how patient you are with me.",
         "I love how we are together in this distance phase, fighting but staying.",
         "I love your cute expressions and horny face.",
